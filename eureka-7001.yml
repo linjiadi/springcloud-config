@@ -19,6 +19,9 @@ eureka:
     fetch-registry: false #不通过eureka获取注册信息
     service-url: 
       defaultZone: http://eureka7001.com:7001/eureka/
+    instance:
+    instance-id: provider-dept8001
+    prefer-ip-address: true
 ---
 server: 
   port: 7001 #注册中心占用7001端口,冒号后面必须要有空格

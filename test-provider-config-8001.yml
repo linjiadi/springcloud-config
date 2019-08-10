@@ -37,5 +37,5 @@ spring:
     # instance-id: provider-dept8001
     # prefer-ip-address: true     #访问路径可以显示IP地址
     
-name: SZR
+name: LIJUNLI
 
